@@ -40,7 +40,7 @@
         document.getElementById('specializationForm').addEventListener('submit', function (e) {
             e.preventDefault();
 
-            const selectedValue = document.querySelector('input[name="major"]:checked').value;
+            const selectedValue = document.querySelector('input[name="major"]:checked')?.value;
 
             if (!selectedValue) {
                 alert("Please select a major before proceeding.");
@@ -49,20 +49,20 @@
 
             localStorage.setItem("studentSpecialization", selectedValue);
 
-            // إضافة القيم إلى النموذج قبل الإرسال
             const form = e.target;
             form.action = getSpecializationPage(selectedValue);
             form.submit();
         });
 
         function getSpecializationPage(specialization) {
+            const basePath = window.location.pathname.split("/")[1]; // اسم الريبو
             switch (specialization) {
                 case "Computer networks":
-                    return "/CN.html";
+                    return /${basePath}/CN.html;
                 case "Cyber security":
-                    return "/CSS.html";
+                    return /${basePath}/CSS.html;
                 case "Computer science":
-                    return "/CS.html";
+                    return /${basePath}/CS.html;
                 default:
                     alert("An error occurred, please try again");
                     return "#";
