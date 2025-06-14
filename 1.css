@@ -1,0 +1,371 @@
+ html,body{
+  display: flexbox;
+background-color: #e6e1ba;
+min-height: calc(100vh+100);
+margin: 0%;
+padding: 0%;
+height:0%;
+
+}
+header{
+font-family: "Indie Flower";
+color: #8C6B28;
+text-align: center;
+height: 40px;
+background-position: top center;
+}
+.llog:hover {
+  opacity: 6;
+  transform: scale(1);
+}
+.llog{
+text-align: left;
+position: absolute;
+left: 100px;
+bottom: 50%;
+font-size: 50px;
+vertical-align: text-bottom;
+text-indent: 100px;
+letter-spacing: 5px;
+font-family: "indie flower";
+color: #8C6B28;
+font-size: 5vw;
+opacity: 2;
+transform: scale(0.95);
+transition: all 0.4s ease;
+
+}
+.imglogo{
+  position: relative;
+  height: 60vh;
+}
+.imglogo img {
+  height: 400px;
+  width: 400px;
+  position:absolute;
+top:30%;
+right: 0;
+
+}
+
+.imglogo img{
+   display: block;
+}
+  a{
+    text-decoration: none; 
+    color: #8C6B28;
+  }
+  nav .nav :hover{
+opacity: .5;
+transform: scale(1.1);
+transition: transform 0.3s ease;
+  height: 0%;
+  }
+  nav a{
+margin: 5px;
+width: (100%/2);
+    font-family: "Indie Flower";
+  color: #8C6B28;
+ float: right;
+   display: flex;
+   padding: 10px;
+   height: 0%;
+  }
+  nav .jpu{
+    transition: transform 0.3s ease;
+  }
+  .jpu img:hover{
+    transform: scale(1.3);
+
+  }
+.I{
+padding-left: 5%;
+}
+footer {
+  background-color: #8C6B28;
+  color: #e6e1ba;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  flex: 1;
+}
+
+.i {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.i  a  {
+  color: #e6e1ba;
+  margin: 0 15px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.i a:hover  {
+  transform: scale(1.3);
+  transform-origin: center center;
+  transition: transform 0.3s ease;
+}
+
+/* نص الفوتر */
+footer p {
+  font-size: small;
+  margin-top: 5px;
+  text-align: center center;
+}
+
+label,input{
+  font-family:"Indie Flower" ;
+}
+.labele{
+  font-family: "Lateef", serif;
+}
+
+.un form {
+  font-family: "Lateef", serif;
+  font-weight: 200;
+  color:#8C6B28;
+  background-color: #e6e1ba;
+    background-size: 200px;
+}
+article{
+  box-shadow: 3px 3px 2px 2px black;
+  align-items: center;
+  text-align: center;
+}
+main article{
+  text-align: center;
+   align-items: center;
+     width: calc(50%);
+     float: left;
+     background-color: #8C6B28;
+      min-height: 100px;
+    margin: 1%;
+    border-radius: 15px;
+    color: white;
+    text-align: center center;
+  /*عشان اعمل الروابط مع بعض وتحت بعض لانو طبيعة  <a>inline */
+    }
+
+   .bodysammry {
+  background-color: #f3efc8;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+header h2 {
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #5a3e00;
+}
+
+/* الشبكة */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* البطاقة */
+.divsammry {
+  background-color: #8b6726;
+  border-radius: 30px;
+  padding: 100px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.divsammry:hover {
+  transform: scale(1.03);
+}
+
+.divsammry img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.divsammry h3 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+    fieldset {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: none;
+      padding: 20px;
+  }
+  /*pagit.html*/
+  .ppagit {
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    color:#2d210b;
+}
+    .sp form{
+       width: 35%;
+       padding: 50px;
+      border: 2px solid  #5c3b0c;
+      text-align: center;   
+      color:#41300d;
+      border-radius: 50px 20px 50px 20px;
+      box-shadow: 5px 5px 10px  #a0896f;}
+
+    .cssinformation {
+      font-weight: bold;
+      margin-bottom: 15px;
+      display: block;
+      font-size: 25px;
+    }
+    .ppag{
+      font-size: 25px;
+    position: absolute;
+    top: 2px;
+    left:410px;
+    }
+    .major-option{
+      margin: 15px 0;
+      padding: 15px;
+      border: 1px solid #a0896f;
+      border-radius: 12px;
+      background-color: #f9f4e6;
+      transition: background-color 0.3s ease;
+    }
+.major-option:hover{
+  background-color: #a0896f;
+}
+
+    label {
+      font-size: 18px;
+      cursor: pointer;
+    }
+    #num{
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    input[type="number"] {
+      width: 60px;
+      padding: 5px;
+      margin-left: 10px;
+      font-size: 15px;
+      border-radius: 5px;
+      border: 1px solid #aaa;
+    }
+
+    input[type="radio"] {
+      transform: scale(1.2);
+      margin-right: 10px;
+    }
+
+    .save-btn {
+      display: block;
+      margin: 25px auto 0;
+      padding: 10px 25px;
+      font-size: 16px;
+      background-color: #fff8ea;
+      color: #3b2e1c;
+      border: 2px solid #5c3b0c;
+      border-radius: 12px;
+      box-shadow: 3px 3px 5px #3b2e1c;
+      cursor: pointer;
+    }
+
+    .save-btn:hover {
+      background-color:#a0896f;
+    }
+     /*pagit.html*/
+    /*تنسيق صفحة تخصصات الجامعة */
+  body.bodychec {
+  font-family: 'Indie Flower', cursive;
+  background-color: #f1ebc8;
+  color: #4a3600;
+  padding: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: #e6dfb2;
+  border-radius: 30px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #4a3600;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.subject-group {
+  background-color: #fcf6e7;
+  padding: 12px 18px;
+  margin: 8px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.subject-group input[type="checkbox"] {
+  transform: scale(1.3);
+  accent-color: #6a4e00;
+}
+
+.subject-group label {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #fff7e1;
+  color: #3b2600;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #3b2600;
+  border-radius: 12px;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin: 25px auto;
+  display: block;
+  transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #f6eddc;
+  transform: scale(1.05);
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+  display: none; /* خليها تظهر فقط عند الحاجة */
+  margin-top: 10px;
+}
+
+
+.labele{
+text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.svun{
+  margin-right: auto;
+  margin-left: auto;
+}

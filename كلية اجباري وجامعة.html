@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Your data</title>
+	<meta charset="UTF-8" />
+	<link rel="icon" href="logo4.jpg">
+	<link rel="stylesheet" href="1.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body class="bodychec">
+	<form action="" method="post">
+		<hr>
+		<label>Choose the completed university compulsory subjects: </label>
+		<div class="subject-group">
+			<!--18 ساعة فقط يمكنه الاختيار كحد اقصى -->
+
+			<br>
+			<input class="III" id="1" type="checkbox" name="جامعة اجباري" value="علوم عسكرية">
+			<label class="labele" for="1">علوم عسكرية</label>
+		</div>
+		<div class="subject-group">
+			<input class="III" id="2" type="checkbox" name="جامعة اجباري" value="مهارات اتصال باللغةالعربية/1">
+			<label class="labele" for="2">مهارات اتصال باللغةالعربية/1</label>
+		</div>
+		<div class="subject-group">
+			<input class="III" id="3" type="checkbox" name="جامعة اجباري" value="مهارات اتصال باللغةالانجليزية/1">
+			<label class="labele" for="3">مهارات اتصال باللغةالانجليزية/1</label>
+		</div>
+		<div class="subject-group">
+			<input class="III" id="4" type="checkbox" name="جامعة اجباري" value="التربية الوطنية">
+			<label class="labele" for="4">التربية الوطنية</label>
+		</div>
+		<div class="subject-group">
+			<input class="III" id="5" type="checkbox" name="جامعة اجباري" value="اثقافة اسلامية">
+			<label class="labele" for="5">الثقافة الاسلامية</label>
+		</div>
+		<div class="subject-group">
+			<!--هذه التخصصات الثلاث ساعة 1-->
+			<input class="III" id="6" type="checkbox" name="جامعة اجباري" value="االريادة والابتكار">
+			<label class="labele" for="6">االريادة والابتكار</label>
+		</div>
+		<div class="subject-group">
+			<input class="III" id="7" type="checkbox" name="جامعة اجباري" value=" والمسؤولية المجتمعية">
+			<label class="labele" for="7">القيادة والمسؤولية المجتمعية</label>
+		</div>
+		<div class="subject-group">
+			<input class="III" id="8" type="checkbox" name="جامعة اجباري" value=" المهارات الحياتية">
+			<label class="labele" for="8">المهارات الحياتية</label>
+		</div>
+		//لازم بس 6مواد 18 ساعة 
+		//الرسالة التحذيرية
+		<p class="warning" id="warningMsg">Choose only 6 subjects</p>
+		<input type="submit" value="Save">
+		<hr>
+		<label class="labele">Choose completed subjects from your chosen university:</label>
+		<div class="subject-group">
+			<!--اختيار 3 مواد كحد اقصى-->
+			<input id="11" type="checkbox" name="جامعة اختياري" value="التفكير والابداع">
+			<label for="11">التفكير والابداع </label>
+		</div>
+		<div class="subject-group">
+			<input id="22" type="checkbox" name="جامعة اختياري" value="القدس(القضية الفلسطينية)">
+			<label for="22">القدس القضيةالفلسطينية</label>
+		</div>
+		<div class="subject-group">
+			<input id="33" type="checkbox" name="جامعة اختياري" value="حقوق الانسان">
+			<label for="33">حقوق الانسان</label>
+		</div>
+		<div class="subject-group">
+			<input id="44" type="checkbox" name="جامعة اختياري" value="قضايا قانونية معاصرة">
+			<label for="44">قضايا قانونية معاصرة</label>
+		</div>
+		<div class="subject-group">
+			<input id="55" type="checkbox" name="جامعة اختياري" value="مقدمة في الاقتصاد">
+			<label for="55"> مقدمة في الاقتصاد</label>
+		</div>
+		<div class="subject-group">
+			<input id="66" type="checkbox" name="جامعة اختياري" value="نقل المعرفة ">
+			<label for="66">نقل المعرفة</label>
+		</div>
+		<div class="subject-group">
+			<input id="77" type="checkbox" name="جامعة اختياري" value="مقدمة في علم النفس">
+			<label for="77">مقدمة في علم النفس</label>
+		</div>
+		<div class="subject-group">
+			<input id="88" type="checkbox" name="جامعة اختياري" value="اخلاقيات السلوك">
+			<label for="88">اخلاقيات السلوك</label>
+		</div>
+		<div class="subject-group">
+			<input id="99" type="checkbox" name="جامعة اختياري" value="علم البيئة والزراعة">
+			<label for="99">علم البيئةوالزراعة</label>
+		</div>
+		<div class="subject-group">
+			<input id="110" type="checkbox" name="جامعة اختياري" value="التغير المناخي وسياسة الاستدامة">
+			<label for="110">التغير المناخي وسياسة الاستدامة</label>
+		</div>
+		<div class="subject-group">
+			<input id="220" type="checkbox" name="جامعة اختياري" value="الغذاء في حياتنا">
+			<label for="220">الغذاء في حياتنا</label>
+		</div>
+		<div class="subject-group">
+			<input id="330" type="checkbox" name="جامعة اختياري" value="اساسيات في مهارات الحاسوب">
+			<label for="330">اساسيات في مهارات الحاسوب</label>
+		</div>
+		<div class="subject-group">
+			<input id="440" type="checkbox" name="جامعة اختياري" value="اللغة الالمانية">
+			<label for="440">اللغة الالمانية</label>
+		</div>
+		<div class="subject-group">
+			<input id="550" type="checkbox" name="جامعة اختياري" value="مدخل الى الحاسوب والانترنت">
+			<label for="550">مدخل الى الحاسوب والانترنت</label>
+		</div>
+		<div class="subject-group">
+			<input id="660" type="checkbox" name="جامعة اختياري" value="اساسيات في اللغة العربية ">
+			<label for="660">اساسيات في اللغة العربية</label>
+		</div>
+		<div class="subject-group">
+			<input id="770" type="checkbox" name="جامعة اختياري" value="الاسلام وقضايا العصر">
+			<label for="770">الاسلام وقضايا العصر</label>
+		</div>
+		<div class="subject-group">
+			<input id="880" type="checkbox" name="جامعة اختياري" value="الثقافة الرقمية">
+			<label for="880">الثقافة الرقمية</label>
+		</div>
+		<div class="subject-group">
+			<input id="990" type="checkbox" name="جامعة اختياري" value="التنمية والبيئة">
+			<label for="990">التنمية والبيئة</label>
+		</div>
+		<div class="subject-group">
+			<input id="120" type="checkbox" name="جامعة اختياري" value="المهارات اللغوية في الالقاء">
+			<label for="120">المهارات اللغوية في الالقاء</label>
+		</div>
+		<div class="subject-group">
+			<input id="130" type="checkbox" name="جامعة اختياري" value="الاسعافات الاولية">
+			<label for="130">الاسعافات الاولية</label>
+		</div>
+		<div class="subject-group">
+			<input id="140" type="checkbox" name="جامعة اختياري" value="الرياضة والصحة">
+			<label for="140">الرياضة والصحة</label>
+		</div>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="جامعة اختياري" value="اساسيات الطاقة المتجددة">
+			<label for="150">اساسيات الطاقة المتجددة</label>
+		</div>
+		<input type="submit" value="Save">
+		<hr>
+		<label>Choose the compulsory major subjects</label>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="كلية اجباري" value="مقدمة في لغات البرمجة">
+			<label for="150">مقدمة في لغات البرمجة</label>
+		</div>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="كلية اجباري" value="الجبر الخطي بإستخدام الحاسوب">
+			<label for="150">الجبر الخطي بإستخدام الحاسوب</label>
+		</div>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="كلية اجباري" value="اساسيات البرمجة">
+			<label for="150">اساسيات البرمجة</label>
+		</div>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="كلية اجباري" value="مقدمة في برمجة الانترنت/خطة جديدة">
+			<label for="150">مقدمة في برمجة الانترنت/خطة جديدة</label>
+		</div>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="كلية اجباري" value="قواعد البيانات/خطة جديدة">
+			<label for="150">قواعد البيانات/خطة جديدة</label>
+		</div>
+		<div class="subject-group">
+			<input id="150" type="checkbox" name="كلية اجباري" value="شبكات حاسوب">
+			<label for="150">شبكات حاسوب</label>
+		</div>
+		<input class="svun" type="submit" value="Save">
+<div id="unselectedSubjects" class="warning"></div>
+
+	</form>
+<script>
+  document.querySelector("form").addEventListener("submit", function (event) {
+    event.preventDefault(); // منع إعادة تحميل الصفحة
+
+    const allSubjects = document.querySelectorAll("input[type='checkbox']");
+    const unselectedSubjects = [];
+    const resultBox = document.getElementById("unselectedSubjects");
+    resultBox.innerHTML = ""; // تفريغ المحتوى السابق
+
+    allSubjects.forEach(subject => {
+      if (!subject.checked) {
+        const label = subject.nextElementSibling;
+        if (label) {
+          unselectedSubjects.push(label.innerText.trim());
+        }
+      }
+    });
+
+    if (unselectedSubjects.length > 0) {
+      // اختيار 6 مواد عشوائية من المواد غير المختارة
+      const suggestions = [...unselectedSubjects]
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 6);
+
+      resultBox.style.display = "block";
+      resultBox.innerHTML = `
+        <div style="margin-top: 15px; color:brown;">
+          <strong>Our suggestion for you👇:</strong>
+          <ul style="padding-left: 20px;">
+            ${suggestions.map(sub => `<li>${sub}</li>`).join('')}
+          </ul>
+        </div>
+      `;
+    } else {
+      resultBox.style.display = "block";
+      resultBox.innerHTML = `<strong style="color: green;">لقد قمت باختيار جميع المواد ✅</strong>`;
+    }
+  });
+</script>
+
+</body>
+
+</html>
